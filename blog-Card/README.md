@@ -8,7 +8,7 @@ Este es mi segundo desafío de Frontend Mentor, creado para practicar **HTML y C
 📸 **Vista previa**
 ![Vista previa del proyecto](./preview.jpg)
 
-Puedes ver el proyecto en vivo aquí: 👉 [Demo online](#)
+Puedes ver el proyecto en vivo aquí: 👉 [Demo online](https://dev-mentor-joelm.vercel.app)
 
 Repositorio del código: 👉 [Ver en GitHub](https://github.com/MtrJoel/Dev-Mentor/tree/master/blog-Card/)
 
