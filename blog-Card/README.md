@@ -50,7 +50,11 @@ Abre el archivo `index.html` en tu navegador.
 ## 👤 Autor
 **Joel Montero**
 💼 Estudiante de Ingeniería en Software
+
 📧 [Contacto profesional](mailto:monterojoel135@mail.com)
-🐙 [GitHub](https://github.com/MtrJoel) | 💼 [LinkedIn](https://www.linkedin.com/in/joel-montero-166488226/) | 🧩 [Frontend Mentor](https://www.frontendmentor.io/profile/MtrJoel)
+
+🐙 [GitHub](https://github.com/MtrJoel)
+💼 [LinkedIn](https://www.linkedin.com/in/joel-montero-166488226/) 
+🧩 [Frontend Mentor](https://www.frontendmentor.io/profile/MtrJoel)
 
 ---
