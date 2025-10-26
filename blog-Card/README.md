@@ -57,4 +57,3 @@ Abre el archivo `index.html` en tu navegador.
 💼 [LinkedIn](https://www.linkedin.com/in/joel-montero-166488226/) 
 🧩 [Frontend Mentor](https://www.frontendmentor.io/profile/MtrJoel)
 
----
