@@ -87,7 +87,6 @@ body{
 }
 
 .social:hover{
-    /* border: 0.02rem solid hsl(0, 0%, 100%); */
     background-color: hsl(75, 94%, 57%);
     color: hsl(0,0%,0%);
 }
