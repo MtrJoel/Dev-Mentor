@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(30, 18%, 87%);
+}
+
+main {
+  flex: 1;                
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-general{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 550px;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.10s ease;
+}
+
+.description-title{
+  display: flex;
+  flex-direction: column;
+  margin: 15px 20px;
+  padding: 15px 30px;
+}
+
+.title{
+  font-family: 'Young Serif', sans-serif;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.initial-p{
+  font-size: 'Outfit', sans-serif;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.time-preparation{
+  font-family: 'Young Serif', sans-serif;
+  display: block;
+  background-color: hsl(330, 100%, 98%);
+  padding: 15px 20px;
+  margin: 8px 0;
+  border-radius: 10px;
+}
+
+.second-title{
+  font-size: 0.99rem;
+    color: hsl(332, 51%, 32%);
+  margin-bottom: 12px;
+}
+
+.preparation-list{
+  font-family: 'Outfit', sans-serif;
+  padding: 0 30px;
+}
+
+.li-list{
+  padding: 5px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.sections-tl{
+  font-size: 1.4rem;
+  font-family: 'Young Serif';
+  font-weight: normal;
+  color: hsl(14, 45%, 36%);
+  margin: 8px 0;
+}
+
+
+.li-ingredients::marker{
+  font-size: 0.9rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.title-intructions{
+  margin-bottom: 20px;
+}
+
+.instructions-li::marker{
+  color: hsl(14, 45%, 36%);
+}
+
+.three-title{
+  margin-left: 10px;
+}
+
+.color-black{
+  font-weight: bold;
+  font-family: 'Young Serif', sans-serif;
+  font-size: 0.9rem;
+}
+
+.nutrition p{
+
+  margin: 15px 0;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+}
+
+.section-content {
+  margin: 10px 20px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.ingredients,
+.instructions {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-ingredients,
+.instructions-list {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.li-ingredients,
+.instructions-li{
+  margin: 9px 0;
+}
+
+
+section + section{
+  border-top: 1px solid hsl(30, 18%, 87%);
+  padding-top: 1.5rem;
+  width: 90%;
+}
+
+.nutrition-table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.8rem;
+}
+
+.nutrition-table td{
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #e4d3c1;
+}
+.nutrition-table td:first-child{
+  color: #5a3d2b;
+  font-weight: 500;
+  width: 60%;
+}
+
+.nutrition-table td:last-child{
+  color: #7b4325;
+  font-weight: bold;
+  text-align: left;
+  font-family: 'Outfit', sans-serif;
+}
+
+.nutrition-table tr:last-child td{
+  border-bottom: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+    margin: 20px auto;
+
+}
+
+.portada{
+  width: 90%;
+  margin: 0;
+}
+
+@media (width <= 500px) {
+  .container-general{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  img{
+    display: block;
+    border-radius: 0;
+    margin: 0;
+  }
+  .portada{
+    width: 100%;
+    margin: 0;
+  }
+}
