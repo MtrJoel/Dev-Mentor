@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Grey: hsl(228, 12%, 48%);
+    --Black: hsl(212, 21%, 14%);
+    --Cream: hsl(30, 38%, 92%);
+    --White: hsl(0, 0%, 100%);
+    --Green: hsl(158, 36%, 37%);
+    --Green-700: hsl(158, 42%, 18%);
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--Cream);
+}
+
+.card-general{
+    margin: 0 15px;
+    background-color: var(--White);
+    border-radius: 15px;
+}
+
+.image{
+    height: 30vh;
+    background-image: url(./images/image-product-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.tag{
+    color: var(--Grey);
+    margin: 15px 17px;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-family: 'Fraunces';
+}
+.title{
+    font-family: 'Montserrat';
+    margin: 0 17px;
+    font-size: 1.8rem;
+}
+
+.description-ini{
+    font-family: 'Fraunces';
+    color: var(--Grey);
+    margin: 20px 17px;
+}
+
+.prices{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.money{
+    margin: 0 17px;
+    font-size: 2.6rem;
+    font-family: 'Fraunces';
+    font-weight: 700;
+    color: var(--Green-700);
+}
+
+.des{
+    color: var(--Grey);
+    text-decoration: line-through;
+    font-family: 'Fraunces';
+    
+}
+
+.sends{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 14px;
+    font-family: 'Fraunces';
+
+}
+
+button{
+    display: inline-flex;
+    justify-content: center;
+    color: var(--White);
+    font-size: 1.2rem;
+    gap: 10px;
+    padding: 15px;
+    background-color: var(--Green);
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    margin-bottom: 15px;
+    
+}
+.icon{
+    width: 20px;
+}
