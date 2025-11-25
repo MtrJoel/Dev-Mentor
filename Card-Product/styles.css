@@ -102,6 +102,10 @@ button{
     margin-bottom: 15px;
     
 }
+button:hover{
+    background-color: var(--Green-700);
+    border: none;
+}
 .icon{
     width: 20px;
 }
