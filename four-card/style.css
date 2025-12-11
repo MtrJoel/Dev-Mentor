@@ -7,27 +7,77 @@
 
 :root{
     --background: #fafafa;
-    --background-card: - White: hsl(0, 0%, 100%);
+    --background-card: hsl(0, 0%, 100%);
     --borderCyan: hsl(180, 62%, 55%);
     --boxShadowColor:hsl(212, 6%, 44%);
+    --borderRed: hsl(0, 78%, 62%);
+    --borderOrange: hsl(34, 97%, 64%);
+    --borderBlue: hsl(212, 86%, 64%);
+    --titleColor: hsl(234, 12%, 34%);
+
 }
 
 body{
     font-size: 15px;
     background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 50px 20px 70px 20px;
+    max-width: 500px;
+    padding: 50px 20px 40px 20px;
+}
+
+.title-primary{
+    font-size: 1.7rem;
+    font-weight: 100;
+    color: var(--boxShadowColor);
+}
+
+.title-secondary{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--titleColor);
+    margin-bottom: 20px;
+}
+
+.introduccion{
+    font-size: 15px;
+    color: var(--titleColor);
+    line-height: 1.5rem;
+    text-align: center;
 }
 
 .container{
-    display: flex;
-    justify-content: center;
+    display: grid;
     align-items: center;
-    flex-direction: column;
+    place-items: center;
+    grid-template-columns: 1fr;
     width: 100%;
+}
+
+.two-articles{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+.title-article{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--titleColor);
+    margin-bottom: 5px;
 }
 
 .supervisor{
@@ -37,11 +87,49 @@ body{
     width: 90%;
     margin: 20px 0;
     padding: 20px;
-    background-color: white;
+    background-color: var(--background-card);
     border-radius: 5px;
     box-shadow: 0 -4px  0 var(--borderCyan),
     0 6px 20px rgba(0,0,0,0.08);
-    height: 40vh;
+}
+
+.team-builder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: var(--background-card);
+    border-radius: 5px;
+    box-shadow: 0 -4px  0 var(--borderRed),
+    0 6px 20px rgba(0,0,0,0.08);
+}
+
+.karma{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: var(--background-card);
+    border-radius: 5px;
+    box-shadow: 0 -4px  0 var(--borderOrange),
+    0 6px 20px rgba(0,0,0,0.08);
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: var(--background-card);
+    border-radius: 5px;
+    box-shadow: 0 -4px  0 var(--borderBlue),
+    0 6px 20px rgba(0,0,0,0.08);
 }
 
 .icon-img{
@@ -55,4 +143,19 @@ body{
 img{
     height: 70px;
     width: 70px;
+}
+
+@media (min-width: 700px) {
+   
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        max-width: 1200px;
+        height: 100vh;
+        place-items: center;
+        place-content: center;
+        place-content: center;
+    }
+
 }
