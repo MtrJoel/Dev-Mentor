@@ -12,7 +12,7 @@ Este es uno de los desafío de Frontend Mentor, creado para practicar **HTML y C
 📸 **Vista previa Desktop**
 ![Vista previa del proyecto en desktop](./design/desktop-preview.jpg)
 
-Puedes ver el proyecto en vivo aquí: 👉 [Demo online](https://dev-mentorjoe.vercel.app/)
+Puedes ver el proyecto en vivo aquí: 👉 [Demo online](https://panel-controljm.vercel.app/)
 
 Repositorio del código: 👉 [Ver en GitHub](https://github.com/MtrJoel/Dev-Mentor/tree/master/four-card)
 
